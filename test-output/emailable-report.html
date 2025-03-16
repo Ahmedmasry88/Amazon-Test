@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,774</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.AmazonTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1742144567815</td><td rowspan="1">6778</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">test.AmazonTest</td><td><a href="#m1">addToCartAndVerify</a></td><td rowspan="1">1742144574634</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">applyFiltersAndSort</a></td><td rowspan="1">1742144574626</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">checkoutAndVerifyTotal</a></td><td rowspan="1">1742144574638</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">navigateToVideoGames</a></td><td rowspan="1">1742144574621</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test.AmazonTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Exception in loginTest: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.89)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c20c457c3d6b086c726b4affdd27a085, findElement {using=id, value=nav-link-accountList}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ahmed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63216/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c20c457c3d6b086c726b4affdd27a085
+	at test.AmazonTest.loginTest(AmazonTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.AmazonTest#addToCartAndVerify</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method test.AmazonTest.addToCartAndVerify() on instance test.AmazonTest@6743e411 depends on not successfully finished methods 
+[test.AmazonTest.applyFiltersAndSort() on instance test.AmazonTest@6743e411]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.AmazonTest#applyFiltersAndSort</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method test.AmazonTest.applyFiltersAndSort() on instance test.AmazonTest@6743e411 depends on not successfully finished methods 
+[test.AmazonTest.navigateToVideoGames() on instance test.AmazonTest@6743e411]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.AmazonTest#checkoutAndVerifyTotal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method test.AmazonTest.checkoutAndVerifyTotal() on instance test.AmazonTest@6743e411 depends on not successfully finished methods 
+[test.AmazonTest.addToCartAndVerify() on instance test.AmazonTest@6743e411]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.AmazonTest#navigateToVideoGames</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method test.AmazonTest.navigateToVideoGames() on instance test.AmazonTest@6743e411 depends on not successfully finished methods 
+[test.AmazonTest.loginTest() on instance test.AmazonTest@6743e411]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
